@@ -46,3 +46,8 @@
 ## revert
 + commit을 제거하지 않고 되돌림
 + --edit 옵션이 default
+
+## reset vs revert
++ reset은 commit을 삭제하므로 위험
++ commit을 공유하는 다른 브랜치에도 영향을 줄 수 있음
++ commit을 삭제하기보다 생성하여 되돌리는 revert가 안전
